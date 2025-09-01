@@ -17,7 +17,7 @@ int main() {
     printf("%s: ret %d\n", __func__, ret);
 
     parser_a_t *parser = generate_parser(PARSER_A);
-    ret = parser->base.dev_inf_parser( NULL, 0, NULL);
+    ret = parser->base.dev_inf_parser( NULL, 0, NULL);   
     printf("%s: ret: %d\n", __func__, ret);
     return 0;
 }

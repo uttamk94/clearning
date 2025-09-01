@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"E:/coding/Projects/c_project/clearning/build/cmake_install.cmake",
-		"E:/coding/Projects/c_project/clearning/build/parser/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

@@ -3,8 +3,10 @@ project(app)
 
 include_directories(${CMAKE_SOURCE_DIR}/inc)
 include_directories(${CMAKE_SOURCE_DIR}/parser/inc)
+include_directories(${CMAKE_SOURCE_DIR}/sync_mgr/inc)
 
 add_subdirectory(parser)
+add_subdirectory(sync_mgr)
 
 add_executable(app
     src/main.c
@@ -12,6 +14,9 @@ add_executable(app
 
 target_include_directories(app PRIVATE ${CMAKE_SOURCE_DIR}/parser/inc)
 target_link_libraries(app PRIVATE parser)
+
+target_include_directories(app PRIVATE ${CMAKE_SOURCE_DIR}/sync_mgr/inc)
+target_link_libraries(app PRIVATE sync_mgr)
 
 # Include directory (for headers like mylib.h)
 target_include_directories(app PRIVATE ${CMAKE_SOURCE_DIR}/inc)
