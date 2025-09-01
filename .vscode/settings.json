@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "comm.h": "c",
+        "stdbool.h": "c",
+        "stdlib.h": "c"
+    }
+}

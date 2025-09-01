@@ -1,0 +1,10 @@
+^E:\CODING\PROJECTS\C_PROJECT\CLEARNING\BUILD_COM\CMAKEFILES\53808E4574749BE7E7ABC243D507B1D6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/coding/Projects/c_project/clearning/comm -BE:/coding/Projects/c_project/clearning/build_com --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/coding/Projects/c_project/clearning/build_com/comm.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

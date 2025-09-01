@@ -1,0 +1,4 @@
+E:/coding/Projects/c_project/clearning/build_com/CMakeFiles/comm.dir
+E:/coding/Projects/c_project/clearning/build_com/CMakeFiles/INSTALL.dir
+E:/coding/Projects/c_project/clearning/build_com/CMakeFiles/ALL_BUILD.dir
+E:/coding/Projects/c_project/clearning/build_com/CMakeFiles/ZERO_CHECK.dir
