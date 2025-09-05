@@ -30,5 +30,5 @@ void handle_sync_a(void *buf, unsigned short len) {
                 return;
             } break;
         }
-    }    
+    }
 }

@@ -22,7 +22,8 @@ int main() {
     log_i("ret: %d", ret);
 
     parser_a_t *parser = generate_parser(PARSER_A);
-    ret = parser->base.dev_inf_parser( NULL, 0, NULL);   
+    parser_t *base = (parser_t *) parser;
+    ret = base->dev_inf_parser( NULL, 0, NULL);
     log_i("ret: %d", ret);
     END();
     return 0;

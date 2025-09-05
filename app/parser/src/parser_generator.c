@@ -6,6 +6,6 @@ void *generate_parser(int type) {
     if (type == PARSER_A) {
         create_parser_a(&parser_a);
         prsr = &parser_a;
-        }
+    }
     return &prsr;
 }
